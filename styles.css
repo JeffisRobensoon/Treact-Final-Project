@@ -16,6 +16,10 @@ p {
   margin: 0 auto;
 }
 
+
+.purple {
+  color: blueviolet;
+}
 /* Navigation Bar */
 
 .links {
