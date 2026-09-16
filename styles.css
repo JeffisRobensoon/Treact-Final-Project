@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
 p {
   line-height: 1.5;
 }
@@ -25,6 +32,3 @@ p {
 }
 /* Navigation Bar */
 
-.links {
-  display: flex;
-}
