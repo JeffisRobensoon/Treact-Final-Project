@@ -33,3 +33,7 @@ p {
 }
 /* Navigation Bar */
 
+.nav__container {
+  display: flex;
+  
+}
