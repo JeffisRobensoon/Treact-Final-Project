@@ -16,6 +16,9 @@ p {
   margin: 0 auto;
 }
 
+.li {
+  list-style-type: none;
+}
 
 .purple {
   color: blueviolet;
