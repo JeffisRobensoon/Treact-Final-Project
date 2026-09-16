@@ -49,3 +49,10 @@ p {
   margin: 8px 0;
   padding-bottom: 4px;
 }
+
+.btn__menu {
+  display: none;
+  background: transparent;
+  border: none;
+  transition: all 300ms ease;
+}
