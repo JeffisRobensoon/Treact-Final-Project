@@ -56,3 +56,11 @@ p {
   border: none;
   transition: all 300ms ease;
 }
+
+/* Features */
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
