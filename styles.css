@@ -43,6 +43,17 @@ p {
   justify-content: space-between;
 }
 
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: underline;
+  padding: 8px 0;
+}
+
 .nav__logo {
   display: flex;
   align-items: center;
@@ -55,6 +66,12 @@ p {
   background: transparent;
   border: none;
   transition: all 300ms ease;
+}
+
+.nav__link--primary {
+  display: flex;
+  padding: 0 20px;
+  cursor: pointer;
 }
 
 /* Features */
