@@ -136,5 +136,51 @@ p {
   flex-direction: column;
 }
 
-/* Pricing */
+/* Values */
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row__narrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row__logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Pricing */ 
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 80px 0;
+}
+
+.container__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+}
 
