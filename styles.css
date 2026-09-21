@@ -107,3 +107,34 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+/* Steps */
+
+.container {
+  padding: 80px 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container__row {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.container__lists {
+  padding: 20px 0;
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Pricing */
+
