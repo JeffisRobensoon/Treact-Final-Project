@@ -45,7 +45,7 @@ p {
 
 .nav__links {
   display: flex;
-  justify-content: space-between;
+  padding-bottom: 2px;
   align-items: center;
 }
 
@@ -78,7 +78,7 @@ p {
 .features {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .container {
@@ -97,7 +97,7 @@ p {
 }
 
 .feature {
-  padding: 0 24px;
+  padding: 24px 0;
   display: flex;
   width: calc(100% / 3);
 }
