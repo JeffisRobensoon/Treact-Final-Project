@@ -85,3 +85,25 @@ p {
 .container {
   padding: 80px 0;
 }
+
+.row__narrow {
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.feature__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  padding: 0 24px;
+  display: flex;
+  width: calc(100% / 3);
+}
+
+.feature__description {
+  display: flex;
+  flex-direction: column;
+}
