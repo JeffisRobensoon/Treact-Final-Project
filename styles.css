@@ -67,6 +67,15 @@ p {
   transition: all 300ms ease;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+  transition: all 300ms ease;
+}
+
+.nav__link--primary:hover {
+  text-decoration: none;
+}
+
 .nav__links li {
   list-style: none;
 }
