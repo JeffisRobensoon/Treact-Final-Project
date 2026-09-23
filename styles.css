@@ -46,23 +46,29 @@ p {
 
 .nav__row {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1800px;
+  padding: 28px;
 }
-
 .nav__links {
   display: flex;
-  padding-bottom: 2px;
+  margin-left: 40px;
   align-items: center;
+  gap: 48px;
 }
 
 .nav__link {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
-  padding-top: 4px;
-  letter-spacing: 0.35px;
+  text-decoration: none;
   border-bottom: 2px solid transparent;
   position: relative;
   transition: all 300ms ease;
+}
+
+.nav__links li {
+  list-style: none;
 }
 
 .nav__logo {
@@ -73,8 +79,8 @@ p {
 }
 
 .nav__logo--img {
-  width: 40;
-  height: 40px;
+  width: 36px;
+  height: 36px;
 }
 
 .nav__logo--title {
@@ -84,7 +90,7 @@ p {
 
 .nav__link--primary {
   margin: 0;
-  padding: 12px 32px;
+  padding: 12px 42px;
   margin-top: 2px;
   border-radius: 9999px;
   color: #fff;
@@ -93,6 +99,7 @@ p {
   border: none;
   width: auto;
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 .btn__menu {
@@ -100,10 +107,6 @@ p {
   border: none;
   display: none;
   transition: all 300ms ease;
-}
-
-.button {
-  cursor: pointer;
 }
 
 /* Features */
