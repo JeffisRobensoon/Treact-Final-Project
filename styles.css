@@ -111,7 +111,9 @@ p {
   cursor: pointer;
 }
 
-.header__logo-img {
+/* Header */
+
+.header__img {
   width: 512px;
   height: 20px;
 }
