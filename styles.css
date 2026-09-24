@@ -121,12 +121,14 @@ p {
 
 .header__description {
   display: flex;
+  font-size: 20px;
+  width: 30%;
 }
 
 .header__description--para {
-  width: 40%;
+  width: 30%;
   margin: 16px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .header__email--input {
@@ -154,6 +156,14 @@ p {
   cursor: pointer;
   position: relative;
   left: 240px;
+}
+
+.header__customer--title {
+  color: #939292;
+}
+
+.header__customer--img {
+  display: flex;
 }
 
 /* Features */
@@ -193,7 +203,7 @@ p {
 /* Steps */
 
 .container {
-  padding: 80px 0;
+  padding: 0px 0;
 }
 
 .row {
