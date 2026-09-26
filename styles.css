@@ -114,9 +114,19 @@ p {
 
 /* Header */
 
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header__img--wrapper {
-  width: 60%;
-  font-size: 32px;
+ width: calc(100% - 40%);
+ object-fit: cover;
+}
+
+.header__img {
+  height: 200px;
 }
 
 .header__description {
@@ -163,7 +173,7 @@ p {
 }
 
 .header__customer--img {
-  display: flex;
+  height: 30px;
 }
 
 /* Features */
