@@ -243,12 +243,10 @@ img {
 
 .feature {
   padding: 24px 0;
-  display: flex;
   width: calc(100% / 3);
 }
 
 .feature__description {
-  display: flex;
   flex-direction: column;
 }
 
