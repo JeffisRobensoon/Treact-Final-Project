@@ -298,8 +298,8 @@ img {
 
 .quality__work--btn {
   margin: 0;
-  padding: 12px 42px;
-  margin-top: 2px;
+  padding: 8px 32px;
+  margin-top: 32px;
   border-radius: 9999px;
   color: #fff;
   background-color: #6415ff;
@@ -308,6 +308,8 @@ img {
   width: auto;
   transition: all 300ms ease;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 /* Steps */
