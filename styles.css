@@ -372,20 +372,32 @@ img {
   margin: 0 auto;
 }
 
-.container__row {
-  display: flex;
-  width: 50%;
-  flex-direction: column;
+.steps__tag {
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.container__lists {
+.steps__title {
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.steps__list {
   padding: 20px 0;
   display: flex;
+  flex-direction: column;
 }
 
-.list {
+.step {
   display: flex;
   flex-direction: column;
+  margin-top: 16px;
+  font-size: 20px;
+}
+.step__para {
+  color: #7c8ba1;
+  margin-top: 16px;
 }
 
 /* Values */
