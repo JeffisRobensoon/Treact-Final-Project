@@ -363,13 +363,17 @@ img {
 /* Steps */
 
 .container {
-  padding: 0px 0;
+  padding: 96px 0;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+#steps .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steps__img--wrapper {
+  display: flex;
 }
 
 .steps__tag {
@@ -389,11 +393,14 @@ img {
   flex-direction: column;
 }
 
-.step {
+.step__number
+
+.step__title {
   display: flex;
   flex-direction: column;
   margin-top: 16px;
   font-size: 20px;
+  font-weight: 500;
 }
 .step__para {
   color: #7c8ba1;
