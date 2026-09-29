@@ -562,7 +562,7 @@ img {
 #pricing .row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .container {
@@ -578,6 +578,7 @@ img {
   letter-spacing: 1.6px;
   text-transform: uppercase;
   font-weight: 700;
+  text-align: center;
 }
 
 .pricing__title {
@@ -586,6 +587,7 @@ img {
   line-height: 1.25;
   margin: 16px 0;
   letter-spacing: 0.025em;
+  text-align: center;
 }
 
 .pricing__para {
@@ -593,25 +595,41 @@ img {
   font-weight: 500;
   line-height: 1.625;
   color: #7c8ba1;
+  
+  text-align: center;
 }
 
 .plans {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
 }
 
 .plan {
-  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 24rem;
+  position: relative;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  margin-right: 2rem;
+  text-align: center;
+  color: rgb(26 32 44);
 }
 
-.pricing:nth-child(1) .plan__stripe {
+.plan:nth-child(1) .plan__stripe {
   color: #f7fafc;
   background-color: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
-.pricing:nth-child(2) .plan__stripe {
+.plan:nth-child(2) .plan__stripe {
   color: #f7fafc;
   background-color: inear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
@@ -625,9 +643,9 @@ img {
  padding-top: 2rem;
 }
 
+
 .plan__title {
   font-size: 20px;
-  font-weight: 700;
 }
 
 .plan__price {
