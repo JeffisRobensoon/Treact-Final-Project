@@ -155,6 +155,10 @@ p {
   transform: translateX(0);
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu__links {
   display: flex;
   flex-direction: column;
@@ -177,9 +181,8 @@ p {
   color: #f7fafc;
   padding: 12px 32px;
   background: #6415ff;
-  border: 500px;
+  border-radius: 500px;
   border: none;
-  text-decoration: none;
 }
 
 
@@ -378,7 +381,6 @@ img {
 }
 
 .quality__description {
-  padding-right: 48px 0;
   max-width: 576px;
   width: 50%;
   margin-right: 0px;
@@ -1173,6 +1175,135 @@ font-weight: 500;
 @media (max-width: 1024px) {
   .btn__menu {
     display: block;
+  }
+
+header .row {
+ flex-direction: column;
+ align-items: center;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .header__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .header__description--para {
+    margin: 20px 0;
+  }
+
+  .header__customer--title {
+    margin-top: 48px;
+  }
+
+  .header__customer--img {
+    padding-right: 0px;
+  }
+
+  .header__img--wrapper {
+    margin-top: 48px;
+  }
+
+  #feature .section__title {
+    font-size: 48px;
+  }
+
+  .section__para {
+    font-size: 16px;
+  }
+
+  .features {
+    max-width: 768px;
+  }
+
+  .feature {
+    max-width: calc(50%);
+  }
+
+  .quality__description {
+    margin-right: 0px;
+    padding-right: 48px;
+  }
+
+  .steps__title {
+  font-size: 36px;
+  }
+
+  .value__para {
+    font-size: 16px;
+  }
+
+  .value__list {
+    max-width: 20rem;
+    flex-direction: column;
+  }
+
+  .pricing__title {
+    font-size: 48px;
+  }
+
+  .pricing__para {
+    font-size: 16px;
+    max-width: 576px;
+    text-align: center;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan {
+    margin-right: 0px;
+  }
+
+  #testimonials .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .testimonials__description {
+    padding-left: 48px;
+  }
+
+  .testimonial__para {
+    font-size: 16px;
+  }
+
+  #start .container {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .start__row {
+    flex-direction: column;
+  }
+
+  .start__title {
+    text-align: center;
+    width: 100%;
+    max-width: 512px;
+  }
+
+  .start__buttons {
+    width: auto;
+    margin-top: 24px;
+  }
+
+  footer {
+    padding: 80px 32px;
   }
 }
 
