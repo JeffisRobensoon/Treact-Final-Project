@@ -1229,12 +1229,16 @@ header .row {
   }
 
   .feature {
-    max-width: calc(50%);
+    width: calc(50%);
   }
 
   .quality__description {
     margin-right: 0px;
     padding-right: 48px;
+  }
+
+  .quality__title {
+    font-size: 36px;
   }
 
   .steps__title {
