@@ -330,7 +330,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
-  width: 1080px;
+  width: 100%;
+  max-width: 1080px;
 }
 
 .feature {
