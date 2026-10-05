@@ -330,6 +330,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  width: 1080px;
 }
 
 .feature {
@@ -1362,7 +1363,7 @@ header .row {
    flex-direction: column; 
   }
 
-  .step__description {
+  .step__description, .steps__img--wrapper {
     width: 100%;
     max-width: 448px;
   }
@@ -1500,6 +1501,10 @@ header .row {
 
 .btn {
   line-height: 1.5;
+}
+
+.value {
+  flex-direction: column;
 }
 
 .steps__list {
