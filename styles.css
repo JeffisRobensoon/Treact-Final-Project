@@ -1481,10 +1481,26 @@ header .row {
   height: auto;
 }
 
+.header__email--input {
+  position: static;
+
+}
+
 .header__customer--title {
   font-size: 14px;
   letter-spacing: 0.05rem;
 }
+
+.header__email--btn {
+  width: 100%;
+  padding: 16px 0;
+  margin: 16px 0;
+  margin-bottom: 0px;
+  line-height: 1.5;
+  margin-left: 32px;
+}
+
+
 
 #features .section__title {
   font-size: 36px;
