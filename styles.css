@@ -1458,6 +1458,12 @@ header .row {
   .footer__social--link:first-child {
     margin-left: 0px;
   }
+
+  .value__title {
+  flex-direction: column;
+  margin-top: 16px;
+  align-items: center;
+}
 }
 
 @media (max-width: 640px) {
@@ -1567,4 +1573,5 @@ header .row {
   text-align: center;
   line-height: 1.5;
 }
+
 }
