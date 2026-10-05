@@ -1338,7 +1338,7 @@ header .row {
   }
 
   .feature {
-    width: auto;
+    width: 100%;
     max-width: 384px;
   }
 
@@ -1371,6 +1371,11 @@ header .row {
 
   #steps .step__title {
     margin: 16px 0 0 0;
+    font-size: 30px;
+  }
+
+  .step__number {
+    margin-left: 32px;
   }
 
   .step {
@@ -1404,9 +1409,15 @@ header .row {
     margin-left: auto;
     margin-right: auto;
   }
-  .value__title {
-    text-align: center;
-    margin-left: 64px;
+
+
+  .value {
+    align-items: center;
+    margin-right: 0;
+  }
+  
+  .value__name {
+   margin-left: 0; 
   }
 
   #pricing .row {
@@ -1529,6 +1540,11 @@ header .row {
 .value {
   flex-direction: column;
 }
+
+.value {
+    align-items: center;
+    margin-right: 0;
+  }
 
 .steps__list {
   margin-top: 48px;
